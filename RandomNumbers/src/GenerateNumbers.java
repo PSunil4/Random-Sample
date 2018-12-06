@@ -11,7 +11,7 @@ public class GenerateNumbers {
 	private void sendGet() throws IOException {
 		String inputLine = "";
 		
-		String url = "https://www.random.org/integers/?num=1&min=100&max=500&col=1&base=10&format=plain&rnd=new";
+		String url="https://www.random.org/integers/?num=1&min=100&max=500&col=1&base=10&format=plain&rnd=new";
 
 		URL obj = new URL(url);
 		HttpURLConnection con = (HttpURLConnection) obj.openConnection();
