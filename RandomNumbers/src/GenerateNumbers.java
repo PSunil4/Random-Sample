@@ -9,7 +9,7 @@ public class GenerateNumbers {
 	static int randomNumber = 0;
 
 	private void sendGet() throws IOException {
-		String inputLine;
+		String inputLine = null;
 		
 		String url = "https://www.random.org/integers/?num=1&min=100&max=500&col=1&base=10&format=plain&rnd=new";
 
